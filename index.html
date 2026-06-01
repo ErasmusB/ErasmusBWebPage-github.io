@@ -3,46 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Page Title - Barker Family Home Page</title>
+    <title>Barker Family</title>
     <link rel="stylesheet" href="styles.css">
-    <!-- If you want to test without styles.css first, add the CSS in a <style> tag here -->
 </head>
 <body>
     <header>
         <nav>
             <div class="nav-container">
-                <h1>Barker Family </h1>
+                <h1>Barker Family</h1>
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="Amateur.html">Amateur Radio</a></li>
                     <li><a href="Writing.html">Writings</a></li>
                     <li><a href="Haiti.html">Haiti</a></li>
-                    <!-- Add more pages later: e.g. Family, Photos, etc. -->
                 </ul>
             </div>
         </nav>
     </header>
 
     <main>
-        <!-- Your actual content goes here -->
-        <div class="content">
+        <h1>Welcome</h1>
+        <p class="intro">
+            We're Garry and Mitzi Barker. This is our small corner of the web — 
+            a place for our shared interests in amateur radio, writing, and the 
+            country of Haiti that has meant so much to us over the years.
+        </p>
+
+        <section class="person">
             <h2>Garry</h2>
-            
-            <!-- Example for Amateur.html -->
-            <p>Retired Family Physician, Ham Radio operator, Jogger etc.</p>
-            
-            <!-- Add images like this (they will scale nicely) -->
-            <img src="Garry.png" alt="Garry" loading="lazy">
+            <img src="images/garry/Garry.png" alt="Garry Barker, AG7SB" loading="lazy" style="max-width: 220px;">
+            <p>Retired family physician, ham radio operator (AG7SB), and lifelong jogger.</p>
+            <p class="meta">Licensed since 1978 • Extra class • Previous calls: WB9SWU, HH6BG, N4NHN, WD7DZI</p>
+        </section>
+
+        <section class="person">
             <h2>Mitzi</h2>
-            <img src="Mitzi Cartoon.jpeg" alt="Family photo" loading="lazy">
-            
-            <!-- Long text or tables will now push the footer down properly -->
-            <p>Long paragraph here... (the bottom cutoff should be fixed)</p>
-        </div>
+            <img src="images/mitzi/Mitzi-Cartoon.jpeg" alt="Mitzi Barker, N4NMJ" loading="lazy" style="max-width: 260px;">
+            <p>Linguist, author, gardener, and artist.</p>
+            <p class="meta">Licensed since 1978 • General class • Previous calls: WB9SWT, N4NMJ</p>
+        </section>
+
+        <section>
+            <h2>Explore</h2>
+            <ul style="margin-top: 0.5rem; line-height: 1.9;">
+                <li><a href="Amateur.html">Amateur Radio</a> — Our ham radio journey from 1978 to today</li>
+                <li><a href="Writing.html">Writings</a> — Books, commentary, and other projects</li>
+                <li><a href="Haiti.html">Haiti</a> — Our long connection with the people and country</li>
+            </ul>
+        </section>
     </main>
 
     <footer>
-        <p>&copy; 2026 ErasmusB • Family Web Page • Hosted on GitHub Pages</p>
+        <p>&copy; 2026 Garry &amp; Mitzi Barker • Hosted on GitHub Pages</p>
         <p><a href="https://github.com/ErasmusB/ErasmusBWebPage-github.io" target="_blank">View source on GitHub</a></p>
     </footer>
 </body>
