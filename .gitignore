@@ -1,0 +1,11 @@
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Common image editors / temp files
+*.tmp
+*.bak
+
+# Optional: ignore very large originals if you ever add them
+# *.CR2
+# *.NEF
