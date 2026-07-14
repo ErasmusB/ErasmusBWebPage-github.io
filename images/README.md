@@ -1,58 +1,44 @@
-# Images Folder
+# Images
 
-This is where you put photos and images that will appear on the Barker Family website.
+Photos and graphics used on the Barker Family website.
 
-## Folder Organization
+## Folders
 
-- `haiti/` — Photos from your time in Haiti
-- `radio/` — Ham radio related photos (shacks, equipment, QSL cards, etc.)
-- `garry/` — Photos of Garry
-- `mitzi/` — Photos of Mitzi
-- `general/` — Any other images used across the site
+| Folder | Use for |
+|--------|---------|
+| `garry/` | Photos of Garry |
+| `mitzi/` | Photos of Mitzi |
+| `haiti/` | Photos from Haiti |
+| `writing/` | Book covers and writing-related images |
+| `radio/` | Ham radio (shack, gear, QSL cards) |
+| `general/` | Shared images used across pages |
 
-You can add more folders later if needed (for example `family/`, `events/`, etc.).
+## Naming
 
-## How to Add Photos
+Use **lowercase** and **hyphens**:
 
-1. Drag and drop your photos into the appropriate folder above.
-2. Use clear, descriptive filenames, for example:
-   - `haiti-1980-port-au-prince.jpg`
-   - `garry-shack-2024.jpg`
-   - `mitzi-garden-01.jpg`
-3. Avoid names like `IMG_1234.jpg` or `photo copy 2.jpg` — they become hard to manage.
+- Good: `garry-shack-2024.jpg`, `haiti-market.jpg`
+- Avoid: `IMG_1234.jpg`, `Photo Copy 2.JPG`, mixed case
 
-## How to Use Images on the Website
+## Adding photos
 
-Once a photo is in this folder, reference it in any HTML file like this:
-
-```html
-<img src="images/haiti/market-day.jpg" alt="Market in Haiti, 1980">
-```
-
-Example for Garry's photo on the home page:
+1. Put the file in the right folder.
+2. Resize for the web if needed (about 1200–1600 px on the long edge is plenty).
+3. Aim for under **1–2 MB** per image (under ~500 KB is better).
+4. Reference it in HTML:
 
 ```html
-<img src="images/garry/portrait-2023.jpg" alt="Garry Barker, AG7SB">
+<img src="images/haiti/market-day.jpg" alt="Market in Haiti">
 ```
 
-## After Adding Photos
-
-You must commit and push the new images so they appear on the live website:
+5. Commit and push so it appears on the live site:
 
 ```bash
-git add .
+git add images/
 git commit -m "Add new Haiti photos"
 git push
 ```
 
-Then wait 30–60 seconds and reload the site.
+## Originals
 
-## Tips
-
-- Keep file sizes reasonable (under 1–2 MB per photo is plenty for web use).
-- You can resize photos on your Mac using Preview or Photos app before adding them.
-- If you have many large original files you want to keep but not publish, put them in a separate folder outside this repo (for example in `~/Pictures/Barker-Originals/`).
-
----
-
-Happy to help organize or add any of these images to the actual pages when you're ready.
+Keep full-resolution camera files **outside** this repository (for example `~/Pictures/Barker-Originals/`). Only web-sized copies belong here.

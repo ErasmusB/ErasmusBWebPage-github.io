@@ -2,10 +2,14 @@
 .DS_Store
 **/.DS_Store
 
-# Common image editors / temp files
+# Editor / OS junk
 *.tmp
 *.bak
+*~
+Thumbs.db
+Desktop.ini
 
-# Optional: ignore very large originals if you ever add them
+# Optional: ignore very large camera originals if ever dropped here
 # *.CR2
 # *.NEF
+# *.ARW
