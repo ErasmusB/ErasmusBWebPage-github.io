@@ -6,7 +6,7 @@ Personal site for Garry (AG7SB) and Mitzi Barker — amateur radio, writing, and
 
 ## Live site
 
-https://erasmusb.github.io/ErasmusBWebPage-github.io/
+https://erasmusb.github.io/
 
 ## Pages
 
@@ -55,4 +55,4 @@ See [images/README.md](images/README.md) for photo naming and size tips.
 
 - Filenames use lowercase and hyphens (e.g. `mitzi-cartoon.jpeg`).
 - Keep web photos reasonably small (ideally under ~500 KB each). Store full-resolution originals outside this repo.
-- GitHub Pages serves from the `master` branch root.
+- This repo is named `ErasmusB.github.io`, so GitHub Pages serves the site at the root URL above from the `master` branch.
