@@ -215,3 +215,22 @@ footer a:hover {
     font-size: 0.9rem;
     color: #666;
 }
+
+/* Worked All States list */
+.state-list {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    gap: 0.45rem 1.25rem;
+    margin: 0.75rem 0 1rem;
+    max-width: 40rem;
+}
+
+.state-list li {
+    padding: 0.4rem 0.7rem;
+    background: #f0f4fa;
+    border: 1px solid #d8e0ec;
+    border-radius: 6px;
+    font-weight: 500;
+    color: #1f2a44;
+}
